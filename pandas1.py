@@ -17,4 +17,5 @@ df.head
 df.dtypes #tipo de datos
 df['Nombres']
 df['Edad'].plot.hist()
+print_python_version()
 
