@@ -30,7 +30,7 @@ print("\nResumen esttadisitico de las calificaciones")
 print (df[['Matematicas', 'Ciencias']].describe())
 
 #calcular promedios
-df['Promedio'] = df[['Matematicas', 'ciencias']].mean(axis=1)
+df['Promedio'] = df[['Matematicas', 'Ciencias']].mean(axis=1)
 
 
 #filtrar estudiantes que obtuvieron promedio superior a 80
